@@ -1,1 +1,4 @@
-Testfile
+- hosts: localhost
+  tasks:
+   - name: ping localhost server
+     ping:
