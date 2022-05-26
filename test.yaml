@@ -2,3 +2,6 @@
   tasks:
    - name: ping localhost server
      ping:
+   - name: Hello Message
+     debug:
+        msg: "Hello World!"
